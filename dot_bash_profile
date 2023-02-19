@@ -1,0 +1,30 @@
+# GIT
+alias gaa="git add -A"
+alias gs="git status"
+alias gc="git commit -m"
+alias push="git push"
+alias pull="git pull --rebase"
+alias nah="git reset--hard && git clean -df"
+
+# COMPOSER
+alias cu="composer update"
+alias ci="composer install"
+
+# NPM
+alias nu="npm update"
+alias ni="npm install"
+
+# Laravel
+alias a="php artisan"
+
+# Other
+alias sites="cd ~/Sites"
+
+# Terminal
+alias reload="exec ${SHELL} -l"
+
+# PhpStorm
+alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
+
+# Flush Directory Service cache
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
