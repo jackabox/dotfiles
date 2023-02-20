@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Composer Global
-export PATH = ~/.composer/vendor/bin:$PATH
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 source ~/.bash_profile
 
