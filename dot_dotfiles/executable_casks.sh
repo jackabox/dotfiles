@@ -7,3 +7,8 @@ brew install --cask fork
 brew install --cask transmit
 brew install --cask jetbrains-toolbox
 brew install --cask iterm2
+brew install --cask cron
+brew install --cask sequal-ace
+brew install --cask fig
+brew install --cask mimestream
+brew install --cask basecamp
