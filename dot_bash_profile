@@ -1,7 +1,10 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/bash_profile.pre.bash" ]] && builtin source "$HOME/.fig/shell/bash_profile.pre.bash"
+
 # GIT
 alias gaa="git add -A"
 alias gs="git status"
-alias gc="git commit -m"
+alias commit="git commit -m"
 alias push="git push"
 alias pull="git pull --rebase"
 alias nah="git reset--hard && git clean -df"
@@ -15,7 +18,13 @@ alias nu="npm update"
 alias ni="npm install"
 
 # Laravel
-alias a="php artisan"
+alias php="herd php"
+alias a="herd php artisan"
+alias fresh="herd php artisan migrate:fresh --seed"
+alias tinker="herd php artisan tinker"
+alias seed="herd php artisan db:seed"
+alias serve="herd php artisan serve"
+alias composer="herd composer"
 
 # Other
 alias sites="cd ~/Sites"
@@ -28,3 +37,6 @@ alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 
 # Flush Directory Service cache
 alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/bash_profile.post.bash" ]] && builtin source "$HOME/.fig/shell/bash_profile.post.bash"
