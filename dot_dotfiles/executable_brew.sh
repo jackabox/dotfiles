@@ -51,10 +51,10 @@ rm composer-setup.php
 sudo mkdir /usr/local/bin/
 sudo mv composer.phar /usr/local/bin/composer
 
-echo 'Install laravel valet'
-echo '---------------------'
-composer global require laravel/valet
-valet install
+# echo 'Install laravel valet'
+# echo '---------------------'
+# composer global require laravel/valet
+# valet install
 
 echo 'Install mysql'
 echo '-------------'
