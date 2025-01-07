@@ -10,9 +10,12 @@ brew install --cask jetbrains-toolbox
 brew install --cask phpstorm
 brew install --cask visual-studio-code
 brew install --cask hyper
+brew install --cask notion
 brew install --cask notion-calendar
+brew install --cask raycast
 brew install --cask mimestream
 brew install --cask basecamp
 brew install --cask herd
 brew install --cask discord
 brew install --cask figma
+brew install --cask ghostty
