@@ -4,6 +4,11 @@ brew install nvm
 mkdir ~/.nvm
 echo "export NVM_DIR=~/.nvm\nsource \$(brew --prefix nvm)/nvm.sh" >> .zshrc
 
+echo 'Install Starship'
+echo '-----------------------------------'
+brew install starship
+echo "eval "$(starship init zsh)"" >> .zshrc
+
 echo 'Install php'
 echo '-----------'
 brew tap shivammathur/php
